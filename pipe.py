@@ -738,6 +738,6 @@ git push origin main
 
 
 ## if any error shows after pushing 
-git pull origin main
+git pull origin main --allow-unrelated-histories
 git commit -m "merge"
 git push -u origin main
